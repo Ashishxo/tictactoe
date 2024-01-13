@@ -43,6 +43,10 @@ h1{
     background-color: #ababab;
 }
 
+.box:active{
+    translate: 0px 2px;
+}
+
 #reset{
     color: white;
     background-color: #3f3f3f;
@@ -59,8 +63,12 @@ h1{
 #reset:hover{
     background-color: white;
     color: #3f3f3f;
+    scale: 1.08;
 }
 
+#reset:active{
+    translate: 0px 2px;
+}
 
 #result{
     height: 50px;
